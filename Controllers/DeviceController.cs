@@ -7,7 +7,7 @@ using WebApplication1.Model;
 namespace WebApplication1.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class DeviceController : ControllerBase
     {
         private readonly SampleDBContext _dataContext;
